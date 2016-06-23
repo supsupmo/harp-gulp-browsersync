@@ -1,0 +1,14 @@
+{
+  "name": "Harp-Gulp-BrowserSync-UIKit",
+  "version": "0.0.1",
+  "description": "Package dependencies needed for boilerplate.",
+  "private": true,
+  "main": "gulpfile.js",
+  "author": "Moses Ting",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "harp": "^0.20.3"
+  }
+}
