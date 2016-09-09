@@ -7,12 +7,16 @@ var reload      = browserSync.reload;
  * Copy assets from bower.
  */
 gulp.task('copy-js', function() {
+  gulp.src([
+    // Include js files here. e.g. 'file1.js', 
+  ]).pipe(gulp.dest('./public/js'));
 });
 
 gulp.task('copy-fonts', function() {
-  // Font-awesome
-  gulp.src('./bower_components/font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg}')
-  .pipe(gulp.dest('./public/fonts'));
+  gulp.src([
+    // Include font files here, i.e.
+    // './bower_components/font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg}',
+  ]).pipe(gulp.dest('./public/fonts'));
 });
 
 /**
