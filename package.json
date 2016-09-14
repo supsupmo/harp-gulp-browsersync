@@ -1,5 +1,5 @@
 {
-  "name": "Harp-Gulp-BrowserSync-UIKit",
+  "name": "Harp-Gulp-BrowserSync",
   "version": "0.0.1",
   "description": "Package dependencies needed for boilerplate.",
   "private": true,
