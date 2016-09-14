@@ -9,7 +9,7 @@ A ready-to-go Harp boilerplate with the following:
 To set things up, do:
 
 ```console
-harp init src --boilerplate supsupmo/harp-gulp-browsersync
+harp init --boilerplate supsupmo/harp-gulp-browsersync
 npm install
 bower install
 ```
