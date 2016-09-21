@@ -1,6 +1,6 @@
 {
-  "name": "pristine",
-  "description": "Frontend dependencies needed for boilerplate.",
+  "name": "Harp Boilerplate",
+  "description": "Frontend dependencies needed for Harp boilerplate.",
   "main": "gulpfile.js",
   "authors": [
     "Moses Ting"
