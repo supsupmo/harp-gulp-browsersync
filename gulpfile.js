@@ -9,14 +9,14 @@ var reload      = browserSync.reload;
 gulp.task('copy-js', function() {
   gulp.src([
     // Include js files here. e.g. 'file1.js', 
-  ]).pipe(gulp.dest('./public/js'));
+  ]).pipe(gulp.dest('./public/static/js'));
 });
 
 gulp.task('copy-fonts', function() {
   gulp.src([
     // Include font files here, i.e.
     // './bower_components/font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg}',
-  ]).pipe(gulp.dest('./public/fonts'));
+  ]).pipe(gulp.dest('./public/static/fonts'));
 });
 
 /**
